@@ -1,14 +1,14 @@
 close all
 clearvars
 
-A = 2;                       % Amplitude
-t = linspace(0, 2*pi)/19;    % Time -> 0 - 2*(pi)
+A = 2;                      
+t = linspace(0, 2*pi)/20;    
 
 freq1 = 1;
 x1 = A*sin(freq1*t*2*pi);
 
 freq2 = 3;
-x2 = A*sin(freq1*t*2*pi);
+x2 = A*sin(freq2*t*2*pi);
 
 freq3 = 5;
 x3 = A*sin(freq3*t*2*pi);
@@ -24,3 +24,4 @@ xres = x1 + x2 + x3 + x4 + x5;
 %disp(xres)
 plot(t,xres)
 grid on
+title('Output signal')
