@@ -1,7 +1,7 @@
 close all
 clearvars
 
-A = 2;            % Amplitude          
+A = 2;                        % Amplitude          
 t = linspace(0, 2*pi)/20;     % Time -> 0 - 2*pi
 
 freq1 = 1;
